@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'c:\Users\raimu\Desktop\python_gemini\.venv'
+set -gx VIRTUAL_ENV 'C:\Users\raimu\Documents\GitHub\MeusProjetos\gemini\.venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"Scripts $PATH

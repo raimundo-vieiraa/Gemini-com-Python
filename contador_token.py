@@ -58,5 +58,5 @@ print(f"Custo Total U$ Flash: ", custo_total)
 custo_total = (tokens_prompt * CUSTO_ENTRADA_PRO) / 1000000 + (tokens_resposta * CUSTO_SAIDA_PRO) / 100.000
 print(f"Custo Total U$ Pro: ", custo_total)
 
-#Custo Total U$ Flash:  0.001575
-#Custo Total U$ Pro:  93.900025
+#Custo Total U$ Flash:  0.0013575
+#Custo Total U$ Pro:  80.85002499999999
