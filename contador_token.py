@@ -9,11 +9,11 @@ genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 MODELO_FLASH='gemini-2.5-flash'
 MODELO_PRO='gemini-2.5-pro'
 
-CUSTO_ENTRADA_FLASH=0.075
-CUSTO_SAIDA_FLASH=0.30
+CUSTO_ENTRADA_FLASH = 1
+CUSTO_SAIDA_FLASH = 2.5
 
-CUSTO_ENTRADA_PRO=3.5
-CUSTO_SAIDA_PRO=10.50
+CUSTO_ENTRADA_PRO = 2.5
+CUSTO_SAIDA_PRO = 15
 
 model_flash=genai.get_model(f'models/{MODELO_FLASH}')
 limits_flash_models={
@@ -58,5 +58,5 @@ print(f"Custo Total U$ Flash: ", custo_total)
 custo_total = (tokens_prompt * CUSTO_ENTRADA_PRO) / 1000000 + (tokens_resposta * CUSTO_SAIDA_PRO) / 100.000
 print(f"Custo Total U$ Pro: ", custo_total)
 
-#Custo Total U$ Flash:  0.00014984999999999998
-#Custo Total U$ Pro:  52.185035
+#Custo Total U$ Flash:  0.001575
+#Custo Total U$ Pro:  93.900025
