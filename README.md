@@ -57,7 +57,7 @@ Este projeto demonstra o uso da API Gemini (Google Generative AI) aplicada a tar
 ## 📂 Estrutura do Projeto
 📁 gemini/
 
- ├── .venv/                    # Ambiente virtual
+ ├── .venv/                    # Ambiente virtual (Escondido no ````.gitignore````)
  
  ├── dados/                    # Armazenamento de textos ou entradas
  
