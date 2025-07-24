@@ -41,9 +41,17 @@ Este projeto demonstra o uso da API Gemini (Google Generative AI) aplicada a tar
     
    ```bash
    python analisador_sentimentos.py
+   ```
+   ```bash
    python categorizador.py
+   ```
+   ```bash
    python contador_token.py
+   ```
+   ```bash
    python selecionador_modelo.py
+   ```
+   ```bash
    python main.py
 
 ## 📂 Estrutura do Projeto
